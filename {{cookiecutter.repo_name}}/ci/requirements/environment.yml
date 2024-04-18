@@ -1,0 +1,12 @@
+name: {{cookiecutter.repo_name}}-tests
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- click >=0.7
+
+# test deps
+- pytest-cov
+- pytest-sugar
+- pytest-xdist
+- psutil
